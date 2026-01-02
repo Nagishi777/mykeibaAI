@@ -1,0 +1,8 @@
+requests
+numpy
+pandas
+beautifulsoup4
+UserAgent
+tqdm
+lightgbm
+scikit-learn
