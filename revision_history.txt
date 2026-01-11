@@ -1,0 +1,13 @@
+"260103_file_modify"
+- what: "horse_result_table.pkl"を編集した"horse_result_table_2404.pkl"を作成
+- where: "test_file_modify.ipynb"
+- how: 不完全なrace_idのレース結果を削除
+- how: スクレイピングしたデータ範囲を"race_id_list_2310_2404.csv"から抽出
+- how: horse_result_tableの"race_date"列を参照し、スクレイピングしたデータ範囲より未来のデータを削除
+
+"260103_merge_table_modify"
+- what: テーブルのマージに向けてhorse_result_tableを加工
+- where: "merge_talbe.ipynb"
+- how: 取消や除外、空欄のデータを出走頭数から除外し
+- how: actual_horsesの計算が正しく完成
+- how: まだdf_cleanに地方競馬のデータが混じっている
