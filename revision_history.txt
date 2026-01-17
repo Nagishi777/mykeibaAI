@@ -8,6 +8,13 @@
 "260103_merge_table_modify"
 - what: テーブルのマージに向けてhorse_result_tableを加工
 - where: "merge_talbe.ipynb"
-- how: 取消や除外、空欄のデータを出走頭数から除外し
+- how: 取消や除外、空欄のデータを出走頭数から除外
 - how: actual_horsesの計算が正しく完成
 - how: まだdf_cleanに地方競馬のデータが混じっている
+
+"260117_predict_rank_add"
+- what: マージしたテーブルを使って予測
+- where: "predict_rank.ipynb"
+- how: テーブルは完全な状態
+- how: 特徴量を増やした状態で予測
+- how: SHAP値の可視化（途中）
