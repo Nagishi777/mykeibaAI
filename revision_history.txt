@@ -18,3 +18,10 @@
 - how: テーブルは完全な状態
 - how: 特徴量を増やした状態で予測
 - how: SHAP値の可視化（途中）
+
+"260124_features_add"
+- what: 特徴量の追加
+- where: "create_table.ipynb"
+- how: 馬の過去成績テーブルから特徴量を追加
+- how: 特徴量をyamlで保存
+- how: SHAP値の可視化
