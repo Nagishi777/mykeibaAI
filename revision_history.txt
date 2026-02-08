@@ -33,3 +33,10 @@
 - how: NotePCとDesktopの2つの作業環境で異なるパスを持つため、別々のjsonファイルを作成
 - where: "./module/random_agent.py"
 - how: scrape時に使うUser-Agentを指定した中からランダムで出力するようなクラス
+
+"260208_Expand_data"
+- what: データを一年分拡充
+- what: スクレイピングを行うモジュールを追加
+- where: "./module/get_html.py"
+- how: クラスを使えるようにすべてのコードを修正
+- how: 各カラムの型を修正

@@ -3,9 +3,6 @@
 すぐやらないと支障がでる
 
 ## Overall
-- ~~特徴量とエンコーディングについては○○ファイルで保存&管理~~
-  - ~~徴量はjsonから読みだしてそのままfeatureに代入できるように~~
-- ~~クラスを使った関数整理~~
 - 特徴量ルールを決める
   - 値が高い方が良い
   - 一桁整数に丸める
@@ -16,23 +13,6 @@
   →海外レースは対象外に
 
 ## scrape_horse_result.ipynb
-- テーブルの"race_id","horse_id"をstringにしておく
-  - odds, popularity, weightがstring→to_numericで数字に
-  - idはstring, その他数字
-  - df_race["race_id"] = df_race["race_id"].astype(str).str.strip()
-- 順位(rank)をラベル化したものや、1-3位を1にする列を作る
-- ~~マージする際にNum_of_horsesの列も足して…~~
-
-- 斤量は"weight"ではなく"weight_carried", 馬体重は"weight_horse"にする、差分はweight_diff
-
-- encoding_course_condition()
-  - "鞘"を追加、"鞘重"は逆にない？
-- parse_margin()
-  - marginの計算方法が色々違う、コメントアウトしているところを解除
-- コーナー通過順位
-  - 処理の関数を追加
-  - 分割した際、レースごとに分割数（すなわち追加される列が変化する）
-  - テーブルのマージの際に困る、最大4? 同じレース内で評価する必要有
 
 ## predict_rank.ipynb
 - 閾値判定は0.5だが本当にこれでよいの？

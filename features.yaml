@@ -1,7 +1,6 @@
 features:
   - horse_id
   - race_id
-  - weight
   - weather
   - num_of_horses
   - course_condition
@@ -20,7 +19,7 @@ features:
   - popularity_bucket_avg3
   - popularity_bucket_avg5
   - popularity_bucket_avg10
-  - weight_minus_avg_in_race
+  - weight_avg_in_race
   - weight_per_body_weight
   - finish_position_inverse_avg3
   - finish_position_inverse_avg5
@@ -34,6 +33,9 @@ features:
   - time_zscore_in_race_avg3
   - time_zscore_in_race_avg5
   - time_zscore_in_race_avg10
+  - margin_to_winner_avg3
+  - margin_to_winner_avg5
+  - margin_to_winner_avg10
   - final_3f_rank_avg3
   - final_3f_rank_avg5
   - final_3f_rank_avg10

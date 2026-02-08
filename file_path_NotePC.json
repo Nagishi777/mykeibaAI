@@ -2,6 +2,7 @@
     "data_folder": "C:\\Users\\yasak\\デスクトップ\\Keiba_App\\mykeibaAI_ver1p0\\data",
     
     "race_result_table": "C:\\Users\\yasak\\デスクトップ\\Keiba_App\\mykeibaAI_ver1p0\\data\\race_result_table.pkl",
+    "horse_result_table": "C:\\Users\\yasak\\デスクトップ\\Keiba_App\\mykeibaAI_ver1p0\\data\\horse_result_table.pkl",
 
     "features": "C:\\Users\\yasak\\デスクトップ\\Keiba_App\\mykeibaAI_ver1p0\\features.yaml"
 }
